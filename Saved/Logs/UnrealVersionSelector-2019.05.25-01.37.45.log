@@ -1,0 +1,55 @@
+AndroidPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.AndroidPlatformSDK has no valid SDK
+IOSPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.IOSPlatformSDK has no valid SDK
+WindowsPlatformFactory.RegisterBuildPlatforms: UnrealBuildTool.WindowsPlatformSDK using manually installed SDK
+ProjectFileGenerator.GenerateProjectFiles: Discovering modules, targets and source code for project...
+WindowsPlatform.FindVSInstallDirs: Found Visual Studio installation: C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional (Product=Microsoft.VisualStudio.Product.Professional, Version=15.9.28307.586, Sort=0)
+WindowsPlatform.FindToolChainDirs: Found Visual Studio toolchain: C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023 (Version=14.16.27023)
+DynamicCompilation.RequiresCompilation: Compiling C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\BuildRules\UE4Rules.dll: UnrealBuildTool.exe is newer
+DynamicCompilation.RequiresCompilation: Compiling C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\BuildRules\UE4ProgramRules.dll: UnrealBuildTool.exe is newer
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 8.1 SDK at C:\Program Files (x86)\Windows Kits\8.1
+WindowsPlatform.EnumerateSdkRootDirs: Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+WindowsPlatform.EnumerateSdkRootDirs: Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+WindowsPlatform.UpdateCachedWindowsSdks: Found Windows 10 SDK version 10.0.17763.0 at C:\Program Files (x86)\Windows Kits\10
+WindowsPlatform.UpdateCachedWindowsSdks: Found Universal CRT version 10.0.17763.0 at C:\Program Files (x86)\Windows Kits\10
+DynamicCompilation.RequiresCompilation: Compiling D:\WorkSpace\ECS_UE4\Intermediate\Build\BuildRules\ECSModuleRules.dll: Assembly does not exist
+DynamicCompilation.CompileAssembly: While compiling D:\WorkSpace\ECS_UE4\Intermediate\Build\BuildRules\ECSModuleRules.dll:
+DynamicCompilation.CompileAssembly: d:\WorkSpace\ECS_UE4\Source\ECS.Target.cs(19,12) : error CS0246: 未能找到类型或命名空间名称“UEBuildBinaryConfiguration”(是否缺少 using 指令或程序集引用?)
+DynamicCompilation.CompileAssembly: d:\WorkSpace\ECS_UE4\Source\ECSEditor.Target.cs(19,12) : error CS0246: 未能找到类型或命名空间名称“UEBuildBinaryConfiguration”(是否缺少 using 指令或程序集引用?)
+UnrealBuildTool.Main: ERROR: Unable to compile source files.
+UnrealBuildTool.Main: BuildException: Unable to compile source files.
+UnrealBuildTool.Main:    在 UnrealBuildTool.DynamicCompilation.CompileAssembly(FileReference OutputAssemblyPath, HashSet`1 SourceFileNames, List`1 ReferencedAssembies, List`1 PreprocessorDefines, Boolean TreatWarningsAsErrors) 位置 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\DynamicCompilation.cs:行号 361
+UnrealBuildTool.Main:    在 UnrealBuildTool.DynamicCompilation.CompileAndLoadAssembly(FileReference OutputAssemblyPath, HashSet`1 SourceFileNames, List`1 ReferencedAssembies, List`1 PreprocessorDefines, Boolean DoNotCompile, Boolean TreatWarningsAsErrors) 位置 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\DynamicCompilation.cs:行号 427
+UnrealBuildTool.Main:    在 UnrealBuildTool.RulesAssembly..ctor(DirectoryReference BaseDir, IReadOnlyList`1 Plugins, List`1 ModuleFiles, List`1 TargetFiles, Dictionary`2 ModuleFileToPluginInfo, FileReference AssemblyFileName, Boolean bContainsEngineModules, Boolean bUseBackwardsCompatibleDefaults, Boolean bReadOnly, Boolean bSkipCompile, RulesAssembly Parent) 位置 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesAssembly.cs:行号 109
+UnrealBuildTool.Main:    在 UnrealBuildTool.RulesCompiler.CreateProjectRulesAssembly(FileReference ProjectFileName, Boolean bUsePrecompiled, Boolean bSkipCompile) 位置 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\System\RulesCompiler.cs:行号 488
+UnrealBuildTool.Main:    在 UnrealBuildTool.ProjectFileGenerator.AddProjectsForAllTargets(PlatformProjectGeneratorCollection PlatformProjectGenerators, List`1 AllGames, ProjectFile& EngineProject, ProjectFile& EnterpriseProject, List`1& GameProjects, Dictionary`2& ProgramProjects) 位置 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:行号 2104
+UnrealBuildTool.Main:    在 UnrealBuildTool.ProjectFileGenerator.GenerateProjectFiles(PlatformProjectGeneratorCollection PlatformProjectGenerators, String[] Arguments) 位置 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\ProjectFiles\ProjectFileGenerator.cs:行号 674
+UnrealBuildTool.Main:    在 UnrealBuildTool.GenerateProjectFilesMode.Execute(CommandLineArguments Arguments) 位置 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\Modes\GenerateProjectFilesMode.cs:行号 172
+UnrealBuildTool.Main:    在 UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray) 位置 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.cs:行号 439
+Timeline.Print: Timeline:
+Timeline.Print: 
+Timeline.Print: [ 0.000]
+Timeline.Print: [ 0.000](+0.038) <unknown>
+Timeline.Print: [ 0.038](+0.109) XmlConfig.ReadConfigFiles()
+Timeline.Print: [ 0.148](+0.000) SingleInstanceMutex.Acquire()
+Timeline.Print: [ 0.148](+0.052) UEBuildPlatform.RegisterPlatforms()
+Timeline.Print:   0.148          [ 0.000](+0.024) Initializing InstalledPlatformInfo
+Timeline.Print:   0.173          [ 0.025](+0.000) Querying types
+Timeline.Print:   0.175          [ 0.027](+0.001) MacPlatformFactory
+Timeline.Print:   0.176          [ 0.028](+0.000) TVOSPlatformFactory
+Timeline.Print:   0.177          [ 0.028](+0.008) AndroidPlatformFactory
+Timeline.Print:   0.185          [ 0.037](+0.013) IOSPlatformFactory
+Timeline.Print:   0.198          [ 0.050](+0.000) HTML5PlatformFactory
+Timeline.Print:   0.199          [ 0.050](+0.000) LinuxPlatformFactory
+Timeline.Print:   0.199          [ 0.051](+0.000) LuminPlatformFactory
+Timeline.Print:   0.199          [ 0.051](+0.001) WindowsPlatformFactory
+Timeline.Print: [ 0.201](+0.519) <unknown>
+Timeline.Print: [ 0.720](+0.001) Finding engine modules
+Timeline.Print: [ 0.722](+0.002) Finding plugin modules
+Timeline.Print: [ 0.732](+1.008) Compiling rules assembly (UE4Rules.dll)
+Timeline.Print: [ 1.755](+0.000) Finding program modules
+Timeline.Print: [ 1.755](+0.000) Finding program targets
+Timeline.Print: [ 1.756](+0.087) Compiling rules assembly (UE4ProgramRules.dll)
+Timeline.Print: [ 1.844](+0.067) <unknown>
+Timeline.Print: [ 1.911](+0.059) Compiling rules assembly (ECSModuleRules.dll)
+Timeline.Print: [ 1.990](+0.000) FileMetadataPrefetch.Stop()
+Timeline.Print: [ 1.992]

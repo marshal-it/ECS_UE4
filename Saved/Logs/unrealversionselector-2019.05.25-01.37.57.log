@@ -1,0 +1,15 @@
+Discovering modules, targets and source code for project...
+Messages while compiling D:\WorkSpace\ECS_UE4\Intermediate\Build\BuildRules\ECSModuleRules.dll:
+d:\WorkSpace\ECS_UE4\Source\ECS\ECS.Build.cs(7,9) : warning CS0618: “UnrealBuildTool.ModuleRules.ModuleRules()”已过时:“Please change your module constructor to take a ReadOnlyTargetRules parameter, and pass it to the base class constructor (eg. "MyModuleRules(ReadOnlyTargetRules Target) : base(Target)").”
+d:\WorkSpace\ECS_UE4\Source\ECS.Target.cs(8,9) : warning CS0618: “UnrealBuildTool.TargetRules.TargetRules()”已过时:“Please pass the TargetInfo parameter to the base class constructor (eg. "MyTargetRules(TargetInfo Target) : base(Target)").”
+d:\WorkSpace\ECS_UE4\Source\ECSEditor.Target.cs(8,9) : warning CS0618: “UnrealBuildTool.TargetRules.TargetRules()”已过时:“Please pass the TargetInfo parameter to the base class constructor (eg. "MyTargetRules(TargetInfo Target) : base(Target)").”
+D:\WorkSpace\ECS_UE4\Source\ECS\ECS.Build.cs: warning: Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
+D:\WorkSpace\ECS_UE4\Source\ECS.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+D:\WorkSpace\ECS_UE4\Source\ECSEditor.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+@progress 'Binding IntelliSense data...' 0%
+@progress 'Binding IntelliSense data...' 50%
+@progress 'Binding IntelliSense data...' 100%
+@progress 'Writing project files...' 0%
+@progress 'Writing project files...' 33%
+@progress 'Writing project files...' 67%
+@progress 'Writing project files...' 100%
